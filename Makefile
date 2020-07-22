@@ -1,4 +1,4 @@
-VERSION = 0.1.1
+VERSION = 0.1.2
 
 CC      = cc
 CFLAGS  = -std=c99 -Wall -O2 -DVERSION=\"$(VERSION)\" -U__STRICT_ANSI__
