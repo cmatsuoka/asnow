@@ -1,0 +1,49 @@
+
+- Atmospheric features
+  - Wind (with speed and direction)
+
+- Interactive commands -- in progress
+  - Use '<' and '>' to control the snowfall intensity -- DONE!
+  - Control temperature (affects melt rate)
+  - Show "info" in the corner of the screen
+    - Temperature
+    - Snow intensity
+    - Wind
+    - "Forecast"?
+    - Date, season?
+    - Graphs?
+    - ASCII art thermometer?
+
+- Snow features
+  - Some kind of snowslide (create slope instead of sharp edges)
+    - May need changes in the snow pile model
+    - May affect melting
+
+- Messages
+  - Multi-line messages
+  - Messages that change from time to time (invoking fortune?)
+    - But what to do with the accumulated snow?
+  - Trivia about weather, cold places, etc
+
+- Overkill features
+  - Somehow show a real weather forecast somewhere?
+    - Is there a free provider we can use?
+  - Geolocation from IP
+    - Then we can use location for forecast
+    - Also with latitude we can get season
+  - Or, let the user specify a place, get weather data from this place,
+    and render the snow to simulate the real conditions there! E.g.
+    Hawaii -> no snow at all.
+  - Snow as a service provides network access to the snowfall
+  - Docker container
+  - Snap package -- DONE!
+
+- Screen elements
+  - Snowman?
+  - Special animations in certain dates?
+
+- Code layout
+  - Move terminal handling to a separate module
+  - Add regression tests
+  - Add travis integration -- DONE!
+

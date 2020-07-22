@@ -1,0 +1,54 @@
+.TH "ASNOW" "1" "Version 0\&.1" "Dec 2018"
+.PP 
+.SH "NAME" 
+asnow
+.PP 
+.SH "SYNOPSIS" 
+\fBasnow\fP
+[\fB\-C, \-\-celsius\fP \fItemp\fP]
+[\fB\-F, \-\-fahrenheit\fP \fItemp\fP]
+[\fB\-f, \-\-frame\-rate\fP \fInum\fP]
+[\fB\-h, \-\-help\fP]
+[\fB\-i, \-\-intensity\fP \fInum\fP]
+[\fB\-K, \-\-kelvin\fP \fItemp\fP]
+[\fB\-v, \-\-version\fP]
+\fImessage\fP
+.PP 
+.SH "DESCRIPTION" 
+\fBasnow\fP is highly accurate [1] simulation of atmospheric precipitation of
+ice crystals (ordinarily known as "snow")\&. Snowflakes can have a variety
+of shapes and are represented by ASCII characters, and may melt from time
+to time\&.
+.PP 
+.SH "OPTIONS" 
+.IP "\fB\-C, \-\-celsius\fP \fItemp\fP"
+Set the temperature in degrees Celsius\&.
+.IP "\fB\-F, \-\-fahrenheit\fP \fItemp\fP"
+Set the temperature in degrees Fahrenheit\&.
+.IP "\fB\-f, \-\-frame\-rate\fP \fInum\fP"
+Set frame rate for animation\&.
+.IP "\fB\-h, \-\-help\fP"
+Show a short summary of command-line options\&.
+.IP "\fB\-i, \-\-intensity\fP \fInum\fP" 
+Set how intense snowfall will be\&.
+.IP "\fB\-K, \-\-kelvin\fP \fItemp\fP"
+Set the temperature in kelvin\&.
+.IP "\fB\-V, \-\-version\fP"
+Print version information\&.
+.PP
+.SH "INTERACTIVE COMMANDS" 
+.IP "\fBq Q ESC\fP"
+Quit\&.
+.IP "\fB, <\fP"
+Decrease snowfall intensitivity\&.
+.IP "\fB. >\fP"
+Increase snowfall intensitivity\&.
+.IP "\fBm M\fP"
+Melt snow\&.
+.PP
+.SH "FOOTNOTE"
+[1] Sarcasm\&.
+.PP 
+.SH "AUTHORS" 
+Ruda Moura and Claudio Matsuoka\&.
+.PP 
