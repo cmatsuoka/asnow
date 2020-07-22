@@ -26,6 +26,9 @@ install: asnow
 clean:
 	rm -f *~ *.o asnow
 
+check:
+	@echo Ran check
+
 asnow.man: asnow.6
 	preconv $+ | nroff -man > $@
 	
